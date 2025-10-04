@@ -1,4 +1,4 @@
-#Toiec Score to CEFR
+#Convert Toiec Score to CEFR
 toiec=int(input("Your Toic Score : "))
 if toiec >=945:
     print("CEFR = C1")
