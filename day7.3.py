@@ -1,4 +1,4 @@
-# Guest Verification and Lucky Draw
+# Guest Verification and Lucky Draw 4. เครื่องจัดการรายชื่อแขกในงานปาร์ตี้
 import random
 guest_list = ["Manee", "Piti", "Choojai", "Mana"]
 print(f"Original guest list: {guest_list}")

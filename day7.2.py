@@ -1,3 +1,4 @@
+# 3. โปรแกรมช่วยตัดสินใจเลือกเมนูอาหาร
 print("Welcome to the Menu x Budget Program")
 import random
 cheap_menu_list = ["Noodle","Krapao","Fried Rice","Panaeng",]

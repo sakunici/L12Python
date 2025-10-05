@@ -1,9 +1,9 @@
-# Who is the Winner
+# Who is the Winner # 5. หาคนที่คะแนนสูงสูดและชนะ
 print("Hello everyone! We will see who is the WINNER today") #welcome message
 # Score 
 score_a= [16,50,65]
 score_b= [60,40,35]
-score_c= [70,80,45]
+score_c= [40,40,45]
 # Sum Score
 player_A=sum(score_a)
 player_B=sum(score_b)

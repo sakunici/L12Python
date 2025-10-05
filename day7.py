@@ -1,4 +1,4 @@
-# Calculate Tip and share bills
+# Calculate Tip and share bills  1. โปรแกรมคำนวณทิปและหารบิล
 print(" Welcome to Northern Resturant")
 
 invoice_str=input("How much is the bill? ")

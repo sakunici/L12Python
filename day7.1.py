@@ -1,4 +1,4 @@
-# Bao Ying Choob
+# Bao Ying Choob # 2. เกมเป่ายิ้งฉุบ
 import random # for random what computer choose
 print ("Welcome to Bao Ying Choob Game")
 c_list= ["rock", "scissor", "paper"]
