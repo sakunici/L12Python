@@ -27,3 +27,21 @@ INSERT INTO Employees (id, first_name, last_name, department_id, salary) VALUES 
 INSERT INTO Employees (id, first_name, last_name, department_id, salary) VALUES (3, 'Peter', 'Parker', 2, 72000);
 INSERT INTO Employees (id, first_name, last_name, department_id, salary) VALUES (4, 'Tony', 'Stark', 3, 95000);
 INSERT INTO Employees (id, first_name, last_name, department_id, salary) VALUES (5, 'Bruce', 'Banner', 2, 80000);
+
+-- ดูข้อมูลทุกอย่างจากตาราง Employees
+SELECT * FROM Employees;
+
+-- ดูแค่ชื่อจริงและนามสกุลของพนักงาน
+SELECT first_name, last_name FROM Employees;
+
+--Day 1 โจทย์ประจำวัน: เขียนคำสั่ง SQL เพื่อดู department_name ทั้งหมดจากตาราง Departments
+SELECT department_name from Departments; 
+
+--Day 2 โจทย์ประจำวัน: เขียนคำสั่ง SQL เพื่อหาชื่อจริงของพนักงานที่เงินเดือนน้อยกว่า 60000
+SELECT first_name from Employees WHERE salary <60000;
+
+--Day 3 โจทย์ประจำวัน: เขียนคำสั่ง SQL เพื่อหาพนักงานที่มีเงินเดือนสูงที่สุด 3 อันดับแรก
+SELECT first_name,salary from Employees ORDER by salary DESC LIMIT 3;
+
+--Day 3.1 โจทย์ประจำวัน: เขียนคำสั่ง SQL เพื่อหาชื่อ และ รหัสพนักงานชื่อ Somchai
+SELECT id,first_name FROM Employees WHERE first_name LIKE 'Somchai' ;
