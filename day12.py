@@ -6,4 +6,3 @@ print(f" typer in lower letter is : {type_lower}")
 text=input("Type your text: ")
 text_cap=text.upper()
 print (f"Your text in Upper is: {text_cap}")
-
