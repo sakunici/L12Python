@@ -15,7 +15,7 @@ FROM Employees
 GROUP BY department_id
 -- ผลลัพธ์ที่ได้จะเป็นการบอกว่า department_id 1 มีกี่คน, id 2 มีกี่คน เป็นต้น
 -- โจทย์ประจำวัน: เขียนคำสั่ง SQL เพื่อหา "เงินเดือนเฉลี่ย" ของ "แต่ละแผนก" 
-SELECT AVG(salary) 
+SELECT department_id, AVG(salary) 
 FROM Employees
 GROUP BY department_id
 
