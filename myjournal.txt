@@ -1,5 +1,1 @@
-This is my journalHello World
-Hello 2 world
-hahah
-Today I learned about file I/O.
-It was fun!
+Hello World

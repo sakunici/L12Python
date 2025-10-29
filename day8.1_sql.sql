@@ -37,7 +37,7 @@ WHERE department_name = "Technology"
 SELECT D.department_name, AVG(salary)
 FROM Employees AS E
 JOIN Departments AS D ON E.department_id = D.id
-GROUP BY department_id
-HAVING salary >= 75000
+GROUP BY D.department_name
+HAVING AVG(salary) >= 75000
 
 
